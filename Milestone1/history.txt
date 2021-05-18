@@ -1,0 +1,62 @@
+------------
+
+OneLayerNet(
+  (fc1): Linear(in_features=111, out_features=1, bias=True)
+)
+
+Columns : All
+VAL LOSS : 0.20035473977526028
+------------
+
+ThreeLayerNet(
+  (fc1): Linear(in_features=111, out_features=55, bias=True)
+  (fc2): Linear(in_features=55, out_features=27, bias=True)
+  (fc3): Linear(in_features=27, out_features=1, bias=True)
+)
+
+Columns : All
+VAL LOSS : 0.14885662101209163
+------------
+
+FourLayerNet(
+  (fc1): Linear(in_features=111, out_features=55, bias=True)
+  (fc2): Linear(in_features=55, out_features=27, bias=True)
+  (fc3): Linear(in_features=54, out_features=27, bias=True)
+  (fc4): Linear(in_features=27, out_features=1, bias=True)
+)
+
+Columns : All
+VAL LOSS : 0.1510163248454531
+------------
+
+FourLayerNet(
+  (fc1): Linear(in_features=111, out_features=55, bias=True)
+  (fc2): Linear(in_features=55, out_features=27, bias=True)
+  (fc3): Linear(in_features=54, out_features=27, bias=True)
+  (fc4): Linear(in_features=27, out_features=1, bias=True)
+)
+
+Columns : All
+VAL LOSS : 0.14494381022950015
+------------
+
+FourLayerNet(
+  (fc1): Linear(in_features=111, out_features=55, bias=True)
+  (fc2): Linear(in_features=55, out_features=27, bias=True)
+  (fc3): Linear(in_features=54, out_features=27, bias=True)
+  (fc4): Linear(in_features=27, out_features=1, bias=True)
+)
+
+Columns : All
+VAL LOSS : 0.16104332300523916
+------------
+
+NonLinearNet(
+  (fc1): Linear(in_features=111, out_features=27, bias=True)
+  (fc2): Linear(in_features=108, out_features=55, bias=True)
+  (fc3): Linear(in_features=55, out_features=13, bias=True)
+  (fc4): Linear(in_features=13, out_features=1, bias=True)
+)
+
+Columns : All
+VAL LOSS : 0.15953511241823434

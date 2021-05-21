@@ -117,3 +117,14 @@ OneLayerNet(
 
 Columns : All
 VAL LOSS : 0.19423764184117318
+------------
+
+FourLayerNet(
+  (fc1): Linear(in_features=111, out_features=55, bias=True)
+  (fc2): Linear(in_features=55, out_features=27, bias=True)
+  (fc3): Linear(in_features=54, out_features=27, bias=True)
+  (fc4): Linear(in_features=27, out_features=1, bias=True)
+)
+
+Columns : All_max_period
+VAL LOSS : 0.1596936509013176

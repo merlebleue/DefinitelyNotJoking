@@ -1677,3 +1677,48 @@ VAL LOSS : 0.19423764184117318
 
     Columns : All_max_period
     VAL LOSS : 0.15654714852571489
+    ------------
+
+    EightLayerNet(
+  (fc1): Linear(in_features=111, out_features=55, bias=True)
+  (fc2): Linear(in_features=55, out_features=27, bias=True)
+  (fc3): Linear(in_features=27, out_features=18, bias=True)
+  (fc4): Linear(in_features=18, out_features=11, bias=True)
+  (fc5): Linear(in_features=11, out_features=6, bias=True)
+  (fc6): Linear(in_features=6, out_features=5, bias=True)
+  (fc7): Linear(in_features=5, out_features=4, bias=True)
+  (fc8): Linear(in_features=4, out_features=1, bias=True)
+)
+
+    Columns : All_max_period
+    VAL LOSS : 0.14897815386454263
+    ------------
+
+    EightLayerNet(
+  (fc1): Linear(in_features=111, out_features=55, bias=True)
+  (fc2): Linear(in_features=55, out_features=27, bias=True)
+  (fc3): Linear(in_features=27, out_features=18, bias=True)
+  (fc4): Linear(in_features=18, out_features=11, bias=True)
+  (fc5): Linear(in_features=11, out_features=6, bias=True)
+  (fc6): Linear(in_features=6, out_features=5, bias=True)
+  (fc7): Linear(in_features=5, out_features=4, bias=True)
+  (fc8): Linear(in_features=4, out_features=1, bias=True)
+)
+
+    Columns : All_max_period
+    VAL LOSS : 0.14715627630551656
+    ------------
+
+    EightLayerNet(
+  (fc1): Linear(in_features=111, out_features=55, bias=True)
+  (fc2): Linear(in_features=55, out_features=27, bias=True)
+  (fc3): Linear(in_features=27, out_features=18, bias=True)
+  (fc4): Linear(in_features=18, out_features=11, bias=True)
+  (fc5): Linear(in_features=11, out_features=6, bias=True)
+  (fc6): Linear(in_features=6, out_features=5, bias=True)
+  (fc7): Linear(in_features=5, out_features=4, bias=True)
+  (fc8): Linear(in_features=4, out_features=1, bias=True)
+)
+
+    Columns : All_max_period
+    VAL LOSS : 0.2973419378201167

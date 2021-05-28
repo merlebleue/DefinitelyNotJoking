@@ -17,4 +17,4 @@ We developped two main models, one based on neural networks and the other based 
 
 Our code can be found in two different notebooks :
 - [Trees.ipynb] presents our code for our decision tree.
-- [Neural Networks.ipynb](Neural Networks.ipynb) presents our code for our neural networks.
+- [Neural Networks.ipynb]("Neural Networks.ipynb") presents our code for our neural networks.
